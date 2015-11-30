@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Weather Application</title>
+		
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/weather_map_stylesheet.css">
+
+	</head>
+	<body>
+
+		<h1>Local Weather</h1>
+
+		<div id="weatherApplication">
+			<h3 id="cityName"></h3>
+
+			<form class="form-inline" id="search-form">
+			  <div class="form-group">
+			    <input type="text" class="form-control" id="address" placeholder="Enter an address">
+			  </div>
+			  <button type="submit" class="btn btn-default">Search</button>
+			</form>
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Day</th>
+						<th>High/Low</th>
+						<th>Conditions</th>
+						<th>Precipitaiton</th>
+						<th>Wind</th>
+						<th>Humidity</th>
+					</tr>
+				</thead>
+				<tbody id="populateTable"></tbody>
+			</table>
+		</div>	
+
+	    <div id="map-canvas"></div>
+	   
+		<script src="/js/jquery-1.11.3.js"></script>
+
+		<script src="/js/moment.min.js"></script>
+
+		<script src="/js/weather_map.js"></script>
+
+		<!-- Load the Google Maps API [DON'T FORGET TO USE A KEY] -->
+	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_ltk7t5oRK_HAoJoo4JQh9R1vz4-1mnU"></script>
+
+
+	</body>
+</html>
