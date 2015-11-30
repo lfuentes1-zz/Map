@@ -1,10 +1,8 @@
 <?php
 
-<<<<<<< HEAD
 require_once 'Log.php';
-=======
+
 require_once '../public/php/Log.php';
->>>>>>> 28c2ad063f6c40d9f5b588fd17bddb50a958eda1
 
 class Auth {
 
