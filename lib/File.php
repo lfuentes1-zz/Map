@@ -1,5 +1,6 @@
 <?php
 //File.php takes in a .yml file and converts it to a .json file
+//comments
 
 class File {
 	public $filename;
